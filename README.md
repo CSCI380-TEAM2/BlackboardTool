@@ -3,7 +3,6 @@ Zhicheng Jin
 Jianyu Hu  
 Yujie Gu  
 Adam Israfil   
-Xingchi Guo
-
-Zain Islam
-Jorge Faggioni
+Xingchi Guo  
+Zain Islam  
+Jorge Faggioni  
