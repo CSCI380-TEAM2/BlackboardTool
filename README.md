@@ -2,6 +2,7 @@
 Zhicheng Jin  
 Jianyu Hu  
 Yujie Gu  
+Abdoulaye S.Diallo 
 Adam Israfil   
 <<<<<<< HEAD
 Xingchi Guo
@@ -11,5 +12,4 @@ Jorge Faggioni
 Xingchi Guo  
 Zain Islam  
 Jorge Faggioni  
-Abdoulaye S.Diallo 
 >>>>>>> 40d7426f40c9a53eb0c47b92a20482e3af6da5a1
