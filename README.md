@@ -1,5 +1,5 @@
-﻿Group Members：
-Zhicheng Jin
-Jianyu Hu
-Yujie Gu
-Adam Israfil 
+﻿Group Members：  
+Zhicheng Jin  
+Jianyu Hu  
+Yujie Gu  
+Adam Israfil   
