@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="878.0" prefWidth="918.0" style="-fx-background-color: #d9d9d9;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="167.0" prefWidth="918.0" style="-fx-background-color: #006666;">
+         <children>
+            <MenuBar layoutY="-2.0" prefHeight="0.0" prefWidth="918.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children></Pane>
+      <Pane layoutX="608.0" layoutY="251.0" prefHeight="331.0" prefWidth="231.0" style="-fx-background-color: #a3a3c2;">
+         <children>
+            <TextArea layoutX="55.0" layoutY="14.0" prefHeight="30.0" prefWidth="121.0" promptText="Cource Details" style="-fx-background-color: #a3a3c2;" />
+            <TextArea layoutX="16.0" layoutY="80.0" prefHeight="219.0" prefWidth="200.0" promptText="Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. " wrapText="true">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </TextArea>
+         </children>
+      </Pane>
+      <TextField alignment="CENTER" layoutX="73.0" layoutY="251.0" prefHeight="65.0" prefWidth="209.0" promptText="CSCI 345">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="73.0" layoutY="342.0" prefHeight="65.0" prefWidth="209.0" promptText="IENG 400">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="73.0" layoutY="433.0" prefHeight="65.0" prefWidth="209.0" promptText="MATH 180">
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="73.0" layoutY="527.0" prefHeight="65.0" prefWidth="209.0" promptText="PHYS 180">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </TextField>
+      <Pane layoutX="217.0" layoutY="649.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button layoutX="19.0" layoutY="76.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="163.0" style="-fx-background-color: #006666;" text="Add New Cource" textFill="#fcf8f8">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+      <TextField alignment="CENTER" layoutX="327.0" layoutY="251.0" prefHeight="65.0" prefWidth="209.0" promptText="CALC 180">
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="327.0" layoutY="342.0" prefHeight="65.0" prefWidth="209.0" promptText="SCIS 250">
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="327.0" layoutY="433.0" prefHeight="65.0" prefWidth="209.0" promptText="PHYS 300">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="327.0" layoutY="527.0" prefHeight="65.0" prefWidth="209.0" promptText="CSCI 200">
+         <effect>
+            <Blend />
+         </effect>
+      </TextField>
+   </children>
+</AnchorPane>
