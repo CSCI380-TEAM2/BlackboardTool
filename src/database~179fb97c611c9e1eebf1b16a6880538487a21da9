@@ -1,0 +1,170 @@
+CREATE DATABASE examGenerator;
+
+CREATE TABLE databaseMembers (
+loginID INT(11) NOT NULL auto_increment,
+username VARCHAR(30) NOT NULL,
+email VARCHAR(30) NOT NULL,
+password VARCHAR(128) NOT NULL,
+PRIMARY KEY(loginID),
+UNIQUE KEY(username)
+);
+
+
+ALTER TABLE databaseMembers
+ADD COLUMN firstName VARCHAR(30), 
+ADD COLUMN lastName VARCHAR(30);
+ALTER TABLE databaseMembers
+ENGINE = MYISAM DEFAULT CHARSET = UFT8;
+
+CREATE TABLE Colleges (
+collegeID INT(11) NOT NULL AUTO_INCREMENT,
+collegeName VARCHAR(50) NOT NULL,
+collegeAddress VARCHAR(255) NOT NULL,
+collegeCity VARCHAR(30) NOT NULL,
+collegeState VARCHAR(30) NOT NULL,
+collegeZip VARCHAR(30) NOT NULL,
+collegeCountry VARCHAR(15) NOT NULL,
+PRIMARY KEY(collegeID)
+);
+
+ALTER TABLE College AUTO_INCREMENT = 0000;
+
+CREATE TABLE departments (
+deptID INT NOT NULL AUTO_INCREMENT,
+deptName VARCHAR(30) NOT NULL,
+deptHead VARCHAR(40),
+deptAddress VARCHAR(255),
+PRIMARY KEY(deptID),
+collegeID INT(11) NOT NULL,
+FOREIGN KEY(collegeID) REFERENCES Colleges(collegeID) ON DELETE NO ACTION ON UPDATE CASCADE
+);
+
+
+RENAME TABLE College TO colleges;
+
+
+
+CREATE TABLE courses (
+courseID VARCHAR(8) PRIMARY KEY NOT NULL,
+courseName VARCHAR(15) NOT NULL,
+departmentID int NOT NULL,
+FOREIGN KEY(departmentID) REFERENCES departments(deptID) ON DELETE NO ACTION ON UPDATE CASCADE,
+courseSection VARCHAR(5) NOT NULL,
+instructor INT(11)
+);
+
+
+ALTER TABLE courses
+ADD FOREIGN KEY(instructor) REFERENCES databaseMembers(loginID) on delete NO ACTION ON UPDATE CASCADE;
+
+
+
+CREATE TABLE Semester (
+semesterSeason VARCHAR(10) NOT NULL,
+semesterYear INT(4) NOT NULL,
+PRIMARY KEY(semesterSeason, semesterYear)
+);
+
+
+ALTER TABLE courses
+ADD COLUMN semesterSeason VARCHAR(10) NOT NULL,
+ADD COLUMN semesterYear VARCHAR(10) NOT NULL;
+
+
+ALTER TABLE courses
+CHANGE COLUMN semesterYear semesterYear VARCHAR(10) NOT NULL;
+
+ALTER TABLE courses
+ADD FOREIGN KEY(semesterSeason, semesterYear) REFERENCES semester(semesterSeason, SemesterYear);
+
+ALTER TABLE courses
+CHANGE COLUMN semesterYear semesterYear INT(4) NOT NULL;
+
+RENAME TABLE Semesterr TO semester;
+
+CREATE TABLE questionType (
+typeID INT(10) PRIMARY KEY NOT NULL auto_increment,
+questionType VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE questionPool (
+questionNo BIGINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+questionType VARCHAR(10) NOT NULL,
+question VARCHAR(3000) NOT NULL,
+deptID INT NOT NULL,
+deptName VARCHAR(30) NOT NULL,
+courseName VARCHAR(15) NOT NULL
+);
+
+ALTER TABLE questionPool
+ADD FOREIGN KEY(deptID) REFERENCES departments(deptID);
+
+ALTER TABLE questionPool
+CHANGE COLUMN courseName courseID VARCHAR(8) NOT NULL;
+
+ALTER TABLE questionPool
+ADD FOREIGN KEY(courseID) REFERENCES courses(courseID);
+
+
+ALTER TABLE questionPool
+ADD FOREIGN KEY(questionType) REFERENCES questionType(questionType) ON DELETE NO ACTION;
+
+ALTER TABLE `examGenerator`.`questionType` 
+CHANGE COLUMN `typeID` `typeID` INT(10) UNSIGNED NOT NULL ,
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`questionType`);
+
+ALTER TABLE questionPool
+ADD COLUMN professorID INT NOT NULL;
+
+CREATE TABLE answerkey (
+answerID INT PRIMARY KEY NOT NULL,
+questionNo BIGINT NOT NULL,
+FOREIGN KEY(questionNo) REFERENCES questionPool(questionNo)
+);
+
+ALTER TABLE answerKey
+DROP FOREIGN KEY questionNo;
+
+ALTER TABLE questionPool
+ADD COLUMN answerID INT NOT NULL,
+ADD FOREIGN KEY(answerID) REFERENCES answerKey(answerID) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE answerKey
+ADD FOREIGN KEY(questionNo) REFERENCES questionPool(questionNo) ON DELETE CASCADE ON UPDATE CASCADE;
+
+
+
+ALTER TABLE answerKey
+ADD COLUMN correctAnswer VARCHAR(300) not null,
+ADD COLUMN incorrectAnswer VARCHAR(300) not null;
+
+ALTER TABLE `examGenerator`.`questionPool` 
+DROP FOREIGN KEY `questionpool_ibfk_4`;
+ALTER TABLE `examGenerator`.`questionPool` 
+DROP COLUMN `answerID`,
+DROP INDEX `answerID` ;
+
+
+DROP TABLE answerKey; 
+
+DESCRIBE questionPool;
+
+ALTER TABLE questionPool
+drop column deptName;
+
+
+
+DROP TABLE questionType;
+
+#drop foreign key
+ALTER TABLE `examGenerator`.`questionPool` 
+DROP FOREIGN KEY `questionpool_ibfk_3`;
+ALTER TABLE `examGenerator`.`questionPool` 
+DROP COLUMN `questionType`,
+DROP INDEX `questionType` ;
+
+
+DROP TABLE questionType;
+
+
