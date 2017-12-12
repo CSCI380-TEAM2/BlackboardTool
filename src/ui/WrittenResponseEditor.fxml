@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.fxml.*?>
+
+<AnchorPane prefHeight="765.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group layoutY="-14.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="180.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+            <Group layoutX="94.0" layoutY="77.0">
+               <children>
+                  <Button id="selectButton" layoutX="581.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0" style="-fx-background-image: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135); -fx-graphic: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135);">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Check_mark.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group layoutX="20.0" layoutY="77.0">
+               <children>
+                  <Button layoutX="713.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="724.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/undo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group />
+            <TextArea layoutX="158.0" layoutY="235.0" prefHeight="151.0" prefWidth="509.0" promptText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas." />
+            <Label layoutX="35.0" layoutY="235.0" prefHeight="125.0" prefWidth="123.0" text="Edit Question (Written Response):" wrapText="true">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Pane prefHeight="150.0" prefWidth="809.0" style="-fx-background-color: #006666;">
+         <children>
+            <MenuBar prefHeight="40.0" prefWidth="809.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </Pane>
+      <Button layoutX="14.0" layoutY="159.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Return" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

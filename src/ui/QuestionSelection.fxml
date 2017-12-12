@@ -26,7 +26,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Check_mark.png" />
+                        <Image url="@../../resources/Check_mark.png" />
                      </image>
                   </ImageView>
                </children>
@@ -40,7 +40,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@X.png" />
+                        <Image url="@../../resources/X.png" />
                      </image>
                   </ImageView>
                </children>
@@ -54,7 +54,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Pencil.png" />
+                        <Image url="@../../resources/Pencil.png" />
                      </image>
                   </ImageView>
                </children>
@@ -109,7 +109,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Check_mark.png" />
+                        <Image url="@../../resources/Check_mark.png" />
                      </image>
                   </ImageView>
                </children>
@@ -123,7 +123,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@X.png" />
+                        <Image url="@../../resources/X.png" />
                      </image>
                   </ImageView>
                </children>
@@ -137,7 +137,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Pencil.png" />
+                        <Image url="@../../resources/Pencil.png" />
                      </image>
                   </ImageView>
                </children>
@@ -161,7 +161,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Check_mark.png" />
+                        <Image url="@../../resources/Check_mark.png" />
                      </image>
                   </ImageView>
                </children>
@@ -175,7 +175,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@X.png" />
+                        <Image url="@../../resources/X.png" />
                      </image>
                   </ImageView>
                </children>
@@ -189,7 +189,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Pencil.png" />
+                        <Image url="@../../resources/Pencil.png" />
                      </image>
                   </ImageView>
                </children>
@@ -213,7 +213,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Check_mark.png" />
+                        <Image url="@../../resources/Check_mark.png" />
                      </image>
                   </ImageView>
                </children>
@@ -227,7 +227,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@X.png" />
+                        <Image url="@../../resources/X.png" />
                      </image>
                   </ImageView>
                </children>
@@ -241,7 +241,7 @@
                   </Button>
                   <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@Pencil.png" />
+                        <Image url="@../../resources/Pencil.png" />
                      </image>
                   </ImageView>
                </children>
