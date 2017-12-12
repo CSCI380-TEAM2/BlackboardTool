@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="552.0" prefWidth="450.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Text layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step 2: You can start creating your own exam" />
+      <Text layoutX="14.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a topic and start it" />
+      <HBox alignment="CENTER" layoutY="52.0" prefHeight="330.0" prefWidth="447.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="294.0" prefWidth="218.0" spacing="5.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Multiple Choice Question(MC)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Multiple Answer Question(MA)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="True/False Question(TF)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Essay Questions(ESS)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Ordering Questions(ORD)" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="335.0" prefWidth="217.0" spacing="5.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Matching Questions(MAT)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="File Response(FIL)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Numeric Response(NUM)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Short Answer Questions(SR)" />
+                  <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="210.0" text="Multiple or Single Fill(FIB_PLUS)" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <TextArea layoutX="8.0" layoutY="365.0" prefHeight="114.0" prefWidth="431.0" />
+      <Button layoutX="155.0" layoutY="494.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="85.0" text="Back" />
+      <Button layoutX="344.0" layoutY="494.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="85.0" text="Start Print" />
+      <Button layoutX="249.0" layoutY="494.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="85.0" text="Save" />
+   </children>
+</AnchorPane>
