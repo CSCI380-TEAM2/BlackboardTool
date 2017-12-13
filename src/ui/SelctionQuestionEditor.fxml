@@ -16,8 +16,8 @@
    <children>
       <Group layoutY="-14.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="210.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
-            <Group layoutX="94.0" layoutY="114.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="257.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+            <Group layoutX="94.0" layoutY="164.0">
                <children>
                   <Button id="selectButton" layoutX="581.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0" style="-fx-background-image: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135); -fx-graphic: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135);">
                      <font>
@@ -31,7 +31,7 @@
                   </ImageView>
                </children>
             </Group>
-            <Group layoutX="20.0" layoutY="114.0">
+            <Group layoutX="20.0" layoutY="164.0">
                <children>
                   <Button layoutX="713.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
                      <font>
@@ -54,29 +54,85 @@
             </Label>
             <Group>
                <children>
-                  <CheckBox layoutX="158.0" layoutY="315.0" mnemonicParsing="false" />
-                  <TextField layoutX="179.0" layoutY="311.0" promptText="Option A" />
+                  <Group>
+                     <children>
+                        <CheckBox layoutX="158.0" layoutY="315.0" mnemonicParsing="false" />
+                        <TextField layoutX="179.0" layoutY="311.0" promptText="Option A" />
+                     </children>
+                  </Group>
+                  <Group>
+                     <children>
+                        <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+                        <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/X.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
                </children>
             </Group>
-            <Group>
-               <children>
-                  <CheckBox layoutX="158.0" layoutY="343.0" mnemonicParsing="false" />
-                  <TextField layoutX="179.0" layoutY="339.0" promptText="Option C" />
-               </children>
-            </Group>
-            <Group>
-               <children>
-                  <CheckBox layoutX="348.0" layoutY="315.0" mnemonicParsing="false" />
-                  <TextField layoutX="369.0" layoutY="311.0" promptText="Option B" />
-               </children>
-            </Group>
-            <Label layoutX="369.0" layoutY="387.0" text="Select All Correct Answers" />
+            <Label layoutX="368.0" layoutY="424.0" text="Select All Correct Answers" />
             <Label layoutX="178.0" layoutY="380.0" />
-            <Button layoutX="158.0" layoutY="383.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Add New Option" />
-            <Group>
+            <Button layoutX="158.0" layoutY="420.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Add New Option" />
+            <Group layoutX="232.0" layoutY="1.0">
                <children>
-                  <TextField layoutX="369.0" layoutY="339.0" promptText="Option D" />
-                  <CheckBox layoutX="348.0" layoutY="343.0" mnemonicParsing="false" />
+                  <Group layoutY="1.0">
+                     <children>
+                        <CheckBox layoutX="158.0" layoutY="315.0" mnemonicParsing="false" />
+                        <TextField layoutX="179.0" layoutY="311.0" promptText="Option C" />
+                     </children>
+                  </Group>
+                  <Group>
+                     <children>
+                        <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+                        <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/X.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+               </children>
+            </Group>
+            <Group layoutY="37.0">
+               <children>
+                  <Group>
+                     <children>
+                        <CheckBox layoutX="158.0" layoutY="315.0" mnemonicParsing="false" />
+                        <TextField layoutX="179.0" layoutY="311.0" promptText="Option B" />
+                     </children>
+                  </Group>
+                  <Group>
+                     <children>
+                        <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+                        <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/X.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+               </children>
+            </Group>
+            <Group layoutX="232.0" layoutY="37.0">
+               <children>
+                  <Group>
+                     <children>
+                        <CheckBox layoutX="158.0" layoutY="315.0" mnemonicParsing="false" />
+                        <TextField layoutX="179.0" layoutY="311.0" promptText="Option D" />
+                     </children>
+                  </Group>
+                  <Group>
+                     <children>
+                        <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+                        <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/X.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
                </children>
             </Group>
          </children>
