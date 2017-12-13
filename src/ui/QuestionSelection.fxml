@@ -59,11 +59,12 @@
                   </ImageView>
                </children>
             </Group>
-            <Label alignment="CENTER" layoutX="53.0" layoutY="254.0" prefHeight="69.0" prefWidth="314.0" text="Question #1" wrapText="true">
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #1" wrapText="true">
                <font>
                   <Font size="21.0" />
                </font>
             </Label>
+            <Text layoutX="28.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
          </children>
       </Group>
       <Pane prefHeight="150.0" prefWidth="809.0" style="-fx-background-color: #006666;">
@@ -142,11 +143,12 @@
                   </ImageView>
                </children>
             </Group>
-            <Label alignment="CENTER" layoutX="53.0" layoutY="254.0" prefHeight="69.0" prefWidth="314.0" text="Question #2" wrapText="true">
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #2" wrapText="true">
                <font>
                   <Font size="21.0" />
                </font>
             </Label>
+            <Text layoutX="28.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
          </children>
       </Group>
       <Group layoutY="256.0">
@@ -194,11 +196,12 @@
                   </ImageView>
                </children>
             </Group>
-            <Label alignment="CENTER" layoutX="53.0" layoutY="254.0" prefHeight="69.0" prefWidth="314.0" text="Question #3" wrapText="true">
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #3" wrapText="true">
                <font>
                   <Font size="21.0" />
                </font>
             </Label>
+            <Text layoutX="28.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
          </children>
       </Group>
       <Group layoutY="392.0">
@@ -246,13 +249,15 @@
                   </ImageView>
                </children>
             </Group>
-            <Label alignment="CENTER" layoutX="53.0" layoutY="254.0" prefHeight="69.0" prefWidth="314.0" text="Question #4" wrapText="true">
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #4" wrapText="true">
                <font>
                   <Font size="21.0" />
                </font>
             </Label>
+            <Text layoutX="28.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
          </children>
       </Group>
+      <ScrollBar layoutX="802.0" layoutY="210.0" orientation="VERTICAL" prefHeight="533.0" prefWidth="14.0" />
    </children>
    <effect>
       <InnerShadow />
