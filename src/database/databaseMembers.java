@@ -1,4 +1,4 @@
-package examGenerator;
+package database;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
