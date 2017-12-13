@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.fxml.*?>
+
+<AnchorPane prefHeight="765.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group layoutY="-14.0">
+         <children>
+            <Group>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="307.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+                  <Button layoutX="48.0" layoutY="388.0" mnemonicParsing="false" prefWidth="150.0" text="File Response">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="687.0" layoutY="473.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Proceed" />
+                  <Button layoutX="48.0" layoutY="279.0" mnemonicParsing="false" prefWidth="150.0" text="Multiple Choice">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="218.0" layoutY="388.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" text="Numeric Response">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="218.0" layoutY="279.0" mnemonicParsing="false" prefWidth="150.0" text="Multiple Answer">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="48.0" layoutY="336.0" mnemonicParsing="false" prefWidth="150.0" text="Essay">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="28.0" layoutY="236.0" text="Select Question Types For Exam">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="218.0" layoutY="336.0" mnemonicParsing="false" prefWidth="150.0" text="Order Question">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="380.0" layoutY="388.0" mnemonicParsing="false" prefWidth="150.0" text="Short Response">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="380.0" layoutY="279.0" mnemonicParsing="false" prefWidth="150.0" text="True/False">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="380.0" layoutY="336.0" mnemonicParsing="false" prefWidth="150.0" text="Match Question">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="173.0" layoutY="434.0" mnemonicParsing="false" text="Multiple or Single Fill in the Blank">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Group>
+            <Button layoutX="24.0" layoutY="169.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Return" />
+         </children>
+      </Group>
+      <Pane prefHeight="150.0" prefWidth="809.0" style="-fx-background-color: #006666;">
+         <children>
+            <MenuBar prefHeight="40.0" prefWidth="809.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </Pane>
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>
