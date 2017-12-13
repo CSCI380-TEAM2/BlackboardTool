@@ -47,41 +47,28 @@
             </Group>
             <Group />
             <TextArea layoutX="158.0" layoutY="235.0" prefHeight="69.0" prefWidth="509.0" promptText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." />
-            <Label layoutX="35.0" layoutY="235.0" prefHeight="125.0" prefWidth="123.0" text="Edit Question (Selection Question):" wrapText="true">
+            <Label layoutX="35.0" layoutY="235.0" prefHeight="125.0" prefWidth="123.0" text="Edit Question (Ordering Question):" wrapText="true">
                <font>
                   <Font size="19.0" />
                </font>
             </Label>
-            <Group layoutX="71.0" layoutY="1.0">
+            <Group>
                <children>
-                  <Group>
+                  <Group layoutX="43.0" layoutY="1.0">
                      <children>
-                        <TextField layoutX="179.0" layoutY="311.0" promptText="Option A" />
-                     </children>
-                  </Group>
-                  <Group>
-                     <children>
-                        <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
-                        <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                        <Button layoutX="158.0" layoutY="312.0" minHeight="20.0" mnemonicParsing="false" prefWidth="25.0" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="161.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../resources/X.png" />
+                              <Image url="@../../resources/downArrow.png" />
                            </image>
                         </ImageView>
                      </children>
                   </Group>
-               </children>
-            </Group>
-            <Label layoutX="158.0" layoutY="574.0" text="Order lines in correct order, program will automatically shuffle them later." />
-            <Label layoutX="178.0" layoutY="380.0" />
-            <Button layoutX="158.0" layoutY="539.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Add New Option" />
-            <Group layoutX="51.0" layoutY="1.0">
-               <children>
-                  <Button layoutX="107.0" layoutY="345.0" mnemonicParsing="false" text="up" />
-                  <Group layoutX="20.0" layoutY="36.0">
+                  <Group layoutX="71.0" layoutY="1.0">
                      <children>
                         <Group>
                            <children>
-                              <TextField layoutX="179.0" layoutY="311.0" promptText="Option B" />
+                              <TextField layoutX="179.0" layoutY="311.0" promptText="Option A" />
                            </children>
                         </Group>
                         <Group>
@@ -96,57 +83,140 @@
                         </Group>
                      </children>
                   </Group>
-                  <Button layoutX="143.0" layoutY="345.0" mnemonicParsing="false" text="Down" />
+               </children>
+            </Group>
+            <Label layoutX="158.0" layoutY="574.0" text="Just put them in the corret order. Let the program do the rest." />
+            <Label layoutX="178.0" layoutY="380.0" />
+            <Button layoutX="158.0" layoutY="539.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Add New Option" />
+            <Group>
+               <children>
+                  <Group layoutY="35.0">
+                     <children>
+                        <Button layoutX="158.0" layoutY="312.0" minHeight="20.0" mnemonicParsing="false" prefWidth="25.0" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="161.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/upArrow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <Group layoutX="43.0" layoutY="35.0">
+                     <children>
+                        <Button layoutX="158.0" layoutY="312.0" minHeight="20.0" mnemonicParsing="false" prefWidth="25.0" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="161.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/downArrow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <Group layoutX="51.0" layoutY="1.0">
+                     <children>
+                        <Group layoutX="20.0" layoutY="36.0">
+                           <children>
+                              <Group>
+                                 <children>
+                                    <TextField layoutX="179.0" layoutY="311.0" promptText="Option B" />
+                                 </children>
+                              </Group>
+                              <Group>
+                                 <children>
+                                    <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../resources/X.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Group>
+                           </children>
+                        </Group>
+                     </children>
+                  </Group>
                </children>
             </Group>
             <Group>
                <children>
-                  <Button layoutX="197.0" layoutY="424.0" mnemonicParsing="false" text="Down" />
-                  <Group layoutX="71.0" layoutY="112.0">
+                  <Group layoutY="111.0">
                      <children>
-                        <Group>
+                        <Button layoutX="158.0" layoutY="312.0" minHeight="20.0" mnemonicParsing="false" prefWidth="25.0" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="161.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/upArrow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <Group>
+                     <children>
+                        <Group layoutX="71.0" layoutY="112.0">
                            <children>
-                              <TextField layoutX="179.0" layoutY="311.0" promptText="Option D" />
-                           </children>
-                        </Group>
-                        <Group>
-                           <children>
-                              <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
-                              <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../resources/X.png" />
-                                 </image>
-                              </ImageView>
+                              <Group>
+                                 <children>
+                                    <TextField layoutX="179.0" layoutY="311.0" promptText="Option D" />
+                                 </children>
+                              </Group>
+                              <Group>
+                                 <children>
+                                    <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../resources/X.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Group>
                            </children>
                         </Group>
                      </children>
                   </Group>
                </children>
             </Group>
-            <Button layoutX="158.0" layoutY="312.0" mnemonicParsing="false" text="up" />
-            <Group layoutX="51.0" layoutY="38.0">
+            <Group>
                <children>
-                  <Button layoutX="107.0" layoutY="345.0" mnemonicParsing="false" text="up" />
-                  <Group layoutX="20.0" layoutY="36.0">
+                  <Group layoutY="72.0">
                      <children>
-                        <Group>
+                        <Button layoutX="158.0" layoutY="312.0" minHeight="20.0" mnemonicParsing="false" prefWidth="25.0" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="161.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/upArrow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <Group layoutX="43.0" layoutY="73.0">
+                     <children>
+                        <Button layoutX="158.0" layoutY="312.0" minHeight="20.0" mnemonicParsing="false" prefWidth="25.0" />
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="161.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../resources/downArrow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <Group layoutX="51.0" layoutY="38.0">
+                     <children>
+                        <Group layoutX="20.0" layoutY="36.0">
                            <children>
-                              <TextField layoutX="179.0" layoutY="311.0" promptText="Option B" />
-                           </children>
-                        </Group>
-                        <Group>
-                           <children>
-                              <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
-                              <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../resources/X.png" />
-                                 </image>
-                              </ImageView>
+                              <Group>
+                                 <children>
+                                    <TextField layoutX="179.0" layoutY="311.0" promptText="Option C" />
+                                 </children>
+                              </Group>
+                              <Group>
+                                 <children>
+                                    <Button layoutX="337.0" layoutY="311.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+                                    <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="341.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../resources/X.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Group>
                            </children>
                         </Group>
                      </children>
                   </Group>
-                  <Button layoutX="143.0" layoutY="345.0" mnemonicParsing="false" text="Down" />
                </children>
             </Group>
          </children>

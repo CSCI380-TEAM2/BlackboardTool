@@ -16,8 +16,8 @@
    <children>
       <Group layoutY="-14.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="298.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
-            <Group layoutX="92.0" layoutY="198.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="323.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+            <Group layoutX="95.0" layoutY="228.0">
                <children>
                   <Button id="selectButton" layoutX="581.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0" style="-fx-background-image: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135); -fx-graphic: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135);">
                      <font>
@@ -31,7 +31,7 @@
                   </ImageView>
                </children>
             </Group>
-            <Group layoutX="20.0" layoutY="198.0">
+            <Group layoutX="20.0" layoutY="228.0">
                <children>
                   <Button layoutX="713.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
                      <font>
@@ -78,7 +78,7 @@
                </children>
             </Group>
             <Label layoutX="178.0" layoutY="380.0" />
-            <Button layoutX="158.0" layoutY="483.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Add New Option" />
+            <Button layoutX="158.0" layoutY="496.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="171.0" text="Add New Option" />
             <Group layoutY="36.0">
                <children>
                   <Group layoutX="157.0">
@@ -129,7 +129,7 @@
                   <TextField layoutX="338.0" layoutY="311.0" promptText="Option 3" />
                </children>
             </Group>
-            <Group layoutX="10.0" layoutY="83.0">
+            <Group layoutY="106.0">
                <children>
                   <Group layoutX="157.0">
                      <children>
@@ -146,12 +146,12 @@
                         <Group>
                            <children>
                               <CheckBox layoutX="158.0" layoutY="315.0" mnemonicParsing="false" />
-                              <TextField layoutX="179.0" layoutY="311.0" promptText="Option C" />
+                              <TextField layoutX="179.0" layoutY="311.0" promptText="Option D" />
                            </children>
                         </Group>
                      </children>
                   </Group>
-                  <TextField layoutX="338.0" layoutY="311.0" promptText="Option 3" />
+                  <TextField layoutX="338.0" layoutY="311.0" promptText="Option 4" />
                </children>
             </Group>
          </children>
