@@ -12,7 +12,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.fxml.*?>
 
-<AnchorPane prefHeight="765.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="765.0" prefWidth="809.0" stylesheets="@../../../../../Desktop/New%20folder/cloud%20background/css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Group layoutY="-14.0">
          <children>
@@ -80,9 +80,9 @@
             <Button layoutX="24.0" layoutY="169.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Return" />
          </children>
       </Group>
-      <Pane prefHeight="150.0" prefWidth="809.0" style="-fx-background-color: #006666;">
+      <Pane prefHeight="144.0" prefWidth="809.0" style="-fx-background-color: #006666;">
          <children>
-            <MenuBar prefHeight="40.0" prefWidth="809.0">
+            <MenuBar prefHeight="28.0" prefWidth="809.0">
               <menus>
                 <Menu mnemonicParsing="false" text="File">
                   <items>
@@ -103,6 +103,7 @@
             </MenuBar>
          </children>
       </Pane>
+      <ImageView fitHeight="114.0" fitWidth="809.0" layoutY="31.0" pickOnBounds="true" />
    </children>
    <effect>
       <InnerShadow />
