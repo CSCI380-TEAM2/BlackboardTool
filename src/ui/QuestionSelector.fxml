@@ -19,28 +19,28 @@
             <Group>
                <children>
                   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="307.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
-                  <Button layoutX="48.0" layoutY="388.0" mnemonicParsing="false" prefWidth="150.0" text="File Response">
+                  <Button layoutX="85.0" layoutY="388.0" mnemonicParsing="false" prefWidth="200.0" text="File Response">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
                   <Button layoutX="687.0" layoutY="473.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Proceed" />
-                  <Button layoutX="48.0" layoutY="279.0" mnemonicParsing="false" prefWidth="150.0" text="Multiple Choice">
+                  <Button layoutX="85.0" layoutY="279.0" mnemonicParsing="false" prefWidth="200.0" text="Multiple Choice">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button layoutX="218.0" layoutY="388.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" text="Numeric Response">
+                  <Button layoutX="306.0" layoutY="388.0" mnemonicParsing="false" prefWidth="200.0" text="Numeric Response">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button layoutX="218.0" layoutY="279.0" mnemonicParsing="false" prefWidth="150.0" text="Multiple Answer">
+                  <Button layoutX="306.0" layoutY="279.0" mnemonicParsing="false" prefWidth="200.0" text="Multiple Answer">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button layoutX="48.0" layoutY="336.0" mnemonicParsing="false" prefWidth="150.0" text="Essay">
+                  <Button layoutX="85.0" layoutY="336.0" mnemonicParsing="false" prefWidth="200.0" text="Essay">
                      <font>
                         <Font size="15.0" />
                      </font>
@@ -50,27 +50,27 @@
                         <Font size="19.0" />
                      </font>
                   </Label>
-                  <Button layoutX="218.0" layoutY="336.0" mnemonicParsing="false" prefWidth="150.0" text="Order Question">
+                  <Button layoutX="306.0" layoutY="336.0" mnemonicParsing="false" prefWidth="200.0" text="Order Question">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button layoutX="380.0" layoutY="388.0" mnemonicParsing="false" prefWidth="150.0" text="Short Response">
+                  <Button layoutX="526.0" layoutY="388.0" mnemonicParsing="false" prefWidth="200.0" text="Short Response">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button layoutX="380.0" layoutY="279.0" mnemonicParsing="false" prefWidth="150.0" text="True/False">
+                  <Button layoutX="526.0" layoutY="279.0" mnemonicParsing="false" prefWidth="200.0" text="True/False">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button layoutX="380.0" layoutY="336.0" mnemonicParsing="false" prefWidth="150.0" text="Match Question">
+                  <Button layoutX="526.0" layoutY="336.0" mnemonicParsing="false" prefWidth="200.0" text="Match Question">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button layoutX="173.0" layoutY="434.0" mnemonicParsing="false" text="Multiple or Single Fill in the Blank">
+                  <Button layoutX="285.0" layoutY="442.0" mnemonicParsing="false" text="Multiple or Single Fill in the Blank">
                      <font>
                         <Font size="15.0" />
                      </font>
