@@ -1,0 +1,11 @@
+MC	How many States in the United States?	45	Incorrect	13	Incorrect	50	Correct	52	Incorrect
+MA	Which of the following were U.S. Presidents?	Adams	Correct	Gainey	Incorrect	Lincoln	Correct	Robinson	Incorrect
+TF	The capitol of the United States is New York City	False
+ESS	Write a response of no more than 500 words, using what you have learned in class.	Here's a sample answer
+ORD	Put the following famous battles in order of occurence.	Battle of Haatings	Battle of Yorktown	Gettysburg	Battle of the Somme	D-Day
+MAT	Match the famous battles and the year they were fought.	Battle of Hastings	1066	Gettysburg	1863	Battle of the Somme	1917
+FIB_PLUS	At the CTL [x] and [y] are Bb Support Staff	x	Tonia	Luanne	y	Guy	Ryan
+FIB_PLUS	At the CTL [x] Bb Support Staff	x	Tonia	Luanne
+FIL	What is Ansel Adams most famous photo?
+NUM	e^3	20.09	0.1
+SR	Describe the flight pattern of flamingos	They fly in a V formation
