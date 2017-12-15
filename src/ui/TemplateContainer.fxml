@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="878.0" prefWidth="918.0" style="-fx-background-color: #d9d9d9;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ContainerController">
+   <children>
+      <Pane prefHeight="167.0" prefWidth="918.0" style="-fx-background-color: #006666;">
+         <children>
+            <WebView fx:id="backgroundAnimate" layoutX="-24.0" layoutY="14.0" prefHeight="173.0" prefWidth="950.0" />
+         </children></Pane>
+      <MenuBar prefHeight="0.0" prefWidth="918.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane layoutX="217.0" layoutY="649.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

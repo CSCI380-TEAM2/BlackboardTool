@@ -25,16 +25,16 @@ public class databaseMembers {
         try {
         	conc.setupConnection();
         	Statement stmt = conc.con.createStatement();
-        	ResultSet rs = stmt.executeQuery("select username from databaseMembers where username = '"+ username +"'");
-        	while(rs.next())
-        	if(rs.getString(1).equalsIgnoreCase(username)) {
+        	ResultSet rs = stmt.executeQuery("select username, loginID from databaseMembers where username = '"+ username +"'");
+        	if(rs.next()){
+        		if(rs.getString(1).equalsIgnoreCase(username)) {
             	System.out.println("User exists = "+ rs.getString(1));
-            	userName=rs.getString(1);
-        	}
-        	else {
-            	System.out.println("User does not exist.");
-            	return null;
-        	}
+            	userName=rs.getString(2);
+        		}
+        	}else {
+    			System.out.println("User does not exist.");
+    			return null;
+    		}
         }
         catch(Exception e) {
             System.out.println(e);

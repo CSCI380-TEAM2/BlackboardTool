@@ -1,21 +1,19 @@
-package application;
-	
+package ui;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 
 
-public class Main extends Application {
-	Parent root;
+public class templateTest extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			root = FXMLLoader.load(getClass()
-                    .getResource("/ui/ViewGUIMain.fxml"));
+			Parent root = FXMLLoader.load(getClass()
+                    .getResource("/ui/TemplateContainer.fxml"));
 
             primaryStage.setTitle("BlackBoard Tool");
             primaryStage.setScene(new Scene(root));
