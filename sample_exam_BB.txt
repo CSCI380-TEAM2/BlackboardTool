@@ -1,4 +1,4 @@
-MC	How many States in the United States? 45	Incorrect	13	Incorrect	50	Correct	52	Incorrect
+MC	How many States in the United States?	45	Incorrect	13	Incorrect	50	Correct	52	Incorrect
 MA	Which of the following were U.S. Presidents?	Adams	Correct	Gainey	Incorrect	Lincoln	Correct	Robinson	Incorrect
 TF	The capitol of the United States is New York City	False
 ESS	Write a response of no more than 500 words, using what you have learned in class.	Here's a sample answer
