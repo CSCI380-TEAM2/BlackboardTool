@@ -258,6 +258,7 @@
          </children>
       </Group>
       <ScrollBar layoutX="802.0" layoutY="210.0" orientation="VERTICAL" prefHeight="533.0" prefWidth="14.0" />
+      <Button layoutX="276.0" layoutY="159.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Print" />
    </children>
    <effect>
       <InnerShadow />
