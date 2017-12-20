@@ -47,7 +47,7 @@
             </Group>
             <Group />
             <TextArea layoutX="158.0" layoutY="235.0" prefHeight="69.0" prefWidth="509.0" promptText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." />
-            <Label layoutX="35.0" layoutY="235.0" prefHeight="125.0" prefWidth="123.0" text="Edit Question (Selection Question):" wrapText="true">
+            <Label layoutX="35.0" layoutY="235.0" prefHeight="125.0" prefWidth="123.0" text="Edit Question (Matching Question):" wrapText="true">
                <font>
                   <Font size="19.0" />
                </font>
