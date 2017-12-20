@@ -1,5 +1,6 @@
 package controller;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -9,10 +10,13 @@ import javafx.stage.Stage;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 
 
@@ -50,10 +54,27 @@ public class LoginController implements Initializable {
 			System.out.println("Login succeed");
 			loginInfo.setText("Login succeed");
 			loginInfo.setTextFill(Color.rgb(21, 117, 84));
-			loginDB.close();
 			Stage stage = (Stage) loginButton.getScene().getWindow();
 			stage.close();
-			
+			try {
+				final FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/ui/Dashboardb.fxml"));
+				String[] info = loginDB.getInfo(userid);
+				Parent root;
+				root = (Parent) fxmlLoader.load();
+				DashboardController controller = 
+			    		fxmlLoader.<DashboardController>getController();
+			    controller.initData(userid, info[0], info[1]);
+				Scene dashboard = new Scene(root);
+			    Stage mainStatge = new Stage();
+			    mainStatge.setTitle("BlackBoard Tool");
+			    mainStatge.setScene(dashboard);
+			    mainStatge.show();
+			    
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			loginDB.close();
+		      
 		}else{
 			loginInfo.setText("Invalid password");
 			loginInfo.setTextFill(Color.rgb(210, 39, 30));

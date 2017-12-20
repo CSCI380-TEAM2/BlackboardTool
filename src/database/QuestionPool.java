@@ -3,7 +3,7 @@ package database;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class questionPool {
+public class QuestionPool {
 	ConnectionManager conc = new ConnectionManager();
     public void insertData (int questionID, String question) {
         try {
@@ -43,13 +43,13 @@ public class questionPool {
         }
     }
 
-    public void questionInfo(int professorID, int courseID) {
+    public void questionInfo(String professorID, String courseID) {
     	try {
         	conc.setupConnection();
         	Statement stmt = conc.con.createStatement();
         	ResultSet rs = stmt.executeQuery("select questionID, question from questionPool where instructor = '"+ professorID +"' and courseID = '"+ courseID +"';");
         	while(rs.next())
-        	System.out.println(rs.getInt(1) +"  "+ rs.getString(2));
+        	System.out.println(rs.getString(1) +"  "+ rs.getString(2));
         	conc.con.close();
         }
         catch(Exception e) {

@@ -41,6 +41,26 @@ public class databaseMembers {
         }
         return userName;
     }
+    
+    public String[] getInfo (String username) {
+        String[] info = new String[2];
+    	try {
+        	conc.setupConnection();
+        	Statement stmt = conc.con.createStatement();
+        	ResultSet rs = stmt.executeQuery("select firstName, lastName, email from databaseMembers where username = '"+ username +"'");
+        	while(rs.next()){
+        		info[0] = rs.getString(1) + " "+rs.getString(2);
+        		System.out.println("Name: " + info[0]);
+        		info[1] = rs.getString(3);
+        		System.out.println("E-mail: " + info[1]);
+        	}
+        }
+        catch(Exception e) {
+            System.out.println(e);
+        }
+        return info;
+    }
+    
 
     public boolean login (int loginID, String password) {
         boolean flag = false;

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+
+<AnchorPane prefHeight="878.0" prefWidth="918.0" style="-fx-background-color: #d9d9d9;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
+   <children>
+      <Pane prefHeight="167.0" prefWidth="918.0" style="-fx-background-color: #006666;">
+         <children>
+            <WebView fx:id="backgroundAnimate" layoutX="-24.0" layoutY="14.0" prefHeight="173.0" prefWidth="950.0" />
+         </children></Pane>
+      <MenuBar prefHeight="0.0" prefWidth="918.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane layoutX="217.0" layoutY="649.0" prefHeight="200.0" prefWidth="200.0" />
+      <Pane layoutX="618.0" layoutY="261.0" prefHeight="331.0" prefWidth="231.0" style="-fx-background-color: #a3a3c2;">
+         <children>
+            <TextArea fx:id="courseNameField" layoutX="22.0" layoutY="14.0" prefHeight="57.0" prefWidth="186.0" promptText="Cource Details" style="-fx-background-color: #a3a3c2;" wrapText="true" />
+            <TextArea fx:id="courseDetailField" layoutX="16.0" layoutY="89.0" prefHeight="210.0" prefWidth="200.0" promptText="Move mouse on a course to view details.                   Click a course to enter question pool frame." wrapText="true">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </TextArea>
+         </children>
+      </Pane>
+      <Pane layoutX="237.0" layoutY="669.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="addNewCourse" layoutX="19.0" layoutY="76.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="163.0" style="-fx-background-color: #006666;" text="Add New Cource" textFill="#fcf8f8">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="TextFieldPane" prefHeight="878.0" prefWidth="918.0" />
+   </children>
+</AnchorPane>
